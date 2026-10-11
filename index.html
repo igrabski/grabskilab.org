@@ -3,56 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="The Grabski Lab at the University of Pennsylvania and Children’s Hospital of Philadelphia develops statistical and computational methods for genomics." />
+    <meta name="description" content="The Grabski Lab at Children’s Hospital of Philadelphia and the University of Pennsylvania develops statistical and computational methods for genomics." />
     <meta name="theme-color" content="#fbfbfa" />
-    <title>Grabski Lab | Penn &amp; CHOP</title>
+    <title>Grabski Lab | CHOP &amp; Penn</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
-      <a class="identity" href="#top" aria-label="Grabski Lab home">
+      <a class="identity" href="index.html" aria-label="Grabski Lab home">
         <strong>Grabski Lab</strong>
-        <span>University of Pennsylvania &nbsp;·&nbsp; Children’s Hospital of Philadelphia</span>
+        <span>Children’s Hospital of Philadelphia</span>
+        <span>University of Pennsylvania</span>
       </a>
-
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-        <a href="#research">Research</a>
-        <a href="#news">News</a>
-        <a href="#people">People</a>
-        <a href="#publications">Publications</a>
-        <a class="join-link" href="#join">Join us</a>
+        <a href="research.html">Research</a>
+        <a href="news.html">News</a>
+        <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
+        <a class="join-link" href="join.html">Join us</a>
       </nav>
     </header>
 
     <main id="main">
-      <section id="top" class="intro wrap">
-        <p class="kicker">Computational genomics and statistical genetics</p>
+      <section class="intro wrap">
         <h1>The Grabski Lab</h1>
         <p class="intro-copy">We develop statistical and computational methods to understand how cells respond to genetic, chemical, and environmental perturbations. Our work connects large-scale genomic data with questions in human biology and disease.</p>
-        <a class="inline-link" href="#research">More about our research <span aria-hidden="true">→</span></a>
+        <a class="inline-link" href="research.html">More about our research <span aria-hidden="true">→</span></a>
       </section>
 
-      <aside class="hiring wrap" aria-labelledby="hiring-title">
-        <div>
-          <p class="label">Recruitment</p>
-          <h2 id="hiring-title">We are building our team.</h2>
-          <p>The lab is recruiting postdoctoral fellows, graduate students, and research staff.</p>
-        </div>
-        <a class="button" href="#join">Join us</a>
-      </aside>
-
-      <section id="research" class="research wrap" aria-labelledby="research-title">
-        <div class="section-heading">
-          <div>
-            <p class="label">Research</p>
-            <h2 id="research-title">Questions we work on</h2>
-          </div>
-          <p>Our group works at the intersection of statistics, machine learning, and genomics. These images are placeholders for figures, microscopy, or other lab visuals.</p>
-        </div>
-
+      <section class="research-gallery wrap" aria-label="Research areas">
         <div class="image-grid">
           <figure>
             <div class="image-placeholder image-one" role="img" aria-label="Placeholder for research image one"><span>Research image 01</span></div>
@@ -67,17 +49,25 @@
             <figcaption>Statistical methods</figcaption>
           </figure>
         </div>
-        <a class="inline-link" href="#">Read more about our research <span aria-hidden="true">→</span></a>
       </section>
 
-      <section id="news" class="news wrap" aria-labelledby="news-title">
+      <aside class="hiring wrap" aria-labelledby="hiring-title">
+        <div>
+          <p class="label">Opening January 2027</p>
+          <h2 id="hiring-title">We are recruiting.</h2>
+          <p>The lab is hiring postdoctoral fellows, graduate students, and research staff.</p>
+        </div>
+        <a class="button" href="join.html">Join us</a>
+      </aside>
+
+      <section class="news wrap" aria-labelledby="news-title">
         <div class="section-heading compact">
           <div>
             <p class="label">Updates</p>
             <h2 id="news-title">Lab news</h2>
           </div>
+          <a class="inline-link" href="news.html">All news <span aria-hidden="true">→</span></a>
         </div>
-
         <div class="news-list">
           <article>
             <time datetime="2026-10">October 2026</time>
@@ -88,36 +78,21 @@
             </div>
           </article>
           <article>
-            <time datetime="2026">2026</time>
+            <time datetime="2027-01">January 2027</time>
             <div>
-              <h3>The Grabski Lab is launching at Penn and CHOP</h3>
-              <p>More information about our team, research, and opening date will be added here.</p>
+              <h3>The Grabski Lab will open at CHOP and Penn</h3>
+              <p>We are building a new team at Children’s Hospital of Philadelphia, with an affiliation at the University of Pennsylvania.</p>
             </div>
           </article>
         </div>
       </section>
-
-      <section id="join" class="join wrap" aria-labelledby="join-title">
-        <div>
-          <p class="label">Opportunities</p>
-          <h2 id="join-title">Interested in joining the lab?</h2>
-        </div>
-        <div>
-          <p>We welcome inquiries from people interested in computational genomics, statistics, machine learning, and collaborative biological research.</p>
-          <p class="placeholder-note">Position details, timing, and application instructions will be added soon.</p>
-        </div>
-      </section>
-
-      <section id="people" class="visually-hidden" aria-label="People information forthcoming"></section>
-      <section id="publications" class="visually-hidden" aria-label="Publications information forthcoming"></section>
     </main>
 
     <footer class="site-footer wrap">
       <p><strong>Grabski Lab</strong><br />Philadelphia, Pennsylvania</p>
-      <p>University of Pennsylvania<br />Children’s Hospital of Philadelphia</p>
+      <p>Children’s Hospital of Philadelphia<br />University of Pennsylvania</p>
       <p>© <span id="year">2026</span> Grabski Lab</p>
     </footer>
-
     <script src="script.js"></script>
   </body>
 </html>
