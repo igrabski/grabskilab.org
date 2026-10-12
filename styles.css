@@ -199,14 +199,14 @@ figcaption { padding-top: 10px; font-size: 14px; font-weight: 700; }
 .inner-page { padding-top: 76px; padding-bottom: 108px; }
 .research-overview { padding-bottom: 78px; border-bottom: 1px solid var(--line); }
 .research-overview p { max-width: none; margin: 0; color: #3f4642; font-size: clamp(18px, 1.9vw, 24px); line-height: 1.6; }
-.research-area { display: grid; grid-template-columns: 54px 210px minmax(0, 1fr); gap: 34px; align-items: start; padding: 54px 0; border-bottom: 1px solid var(--line); }
+.research-area { display: grid; grid-template-columns: 54px 300px minmax(0, 1fr); gap: 34px; align-items: start; padding: 54px 0; border-bottom: 1px solid var(--line); }
 .area-number { align-self: start; color: var(--accent); font-size: 22px; font-weight: 700; }
 .area-image { width: 100%; min-width: 0; }
-.research-figure { display: flex; justify-content: center; margin: 0; overflow: hidden; background: #fff; }
+.research-figure { display: flex; align-items: center; align-self: stretch; justify-content: center; margin: 0; overflow: hidden; background: #fff; }
 .research-figure img { display: block; width: auto; height: auto; object-fit: contain; }
-.figure-fingerprinting img { width: 112px; max-width: 100%; }
-.figure-variation img { width: 168px; max-width: 100%; }
-.figure-morphology img { width: 205px; max-width: 100%; }
+.figure-fingerprinting img { width: 145px; max-width: 100%; transform: translateY(-18px); margin-bottom: -36px; }
+.figure-variation img { width: 240px; max-width: 100%; }
+.figure-morphology img { width: 290px; max-width: 100%; }
 .research-area h2 { margin-bottom: 14px; font-size: clamp(23px, 2.6vw, 32px); line-height: 1.18; letter-spacing: -.02em; }
 .research-area p { margin-bottom: 0; color: var(--muted); font-size: 17px; }
 .research-area p a { color: var(--accent-dark); text-underline-offset: 4px; }
@@ -274,7 +274,10 @@ figcaption { padding-top: 10px; font-size: 14px; font-weight: 700; }
   .image-placeholder { aspect-ratio: 16 / 9; }
   .site-footer { grid-template-columns: 1fr 1fr; }
   .site-footer p:last-child { grid-column: 1 / -1; }
-  .research-area { grid-template-columns: 42px 170px minmax(0, 1fr); gap: 26px; }
+  .research-area { grid-template-columns: 42px 220px minmax(0, 1fr); gap: 26px; }
+  .figure-fingerprinting img { width: 130px; }
+  .figure-variation img { width: 205px; }
+  .figure-morphology img { width: 215px; }
   .person-profile { gap: 42px; }
   .selected-paper { grid-template-columns: minmax(210px, 290px) 1fr; gap: 28px; }
 }
