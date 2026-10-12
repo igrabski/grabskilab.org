@@ -198,7 +198,7 @@ figcaption { padding-top: 10px; font-size: 14px; font-weight: 700; }
 /* Interior pages */
 .inner-page { padding-top: 76px; padding-bottom: 108px; }
 .research-overview { padding-bottom: 78px; border-bottom: 1px solid var(--line); }
-.research-overview p { max-width: none; margin: 0; color: #3f4642; font-size: clamp(20px, 2.2vw, 27px); line-height: 1.55; }
+.research-overview p { max-width: none; margin: 0; color: #3f4642; font-size: clamp(18px, 1.9vw, 24px); line-height: 1.6; }
 .research-area { display: grid; grid-template-columns: 54px minmax(260px, .9fr) 1.15fr; gap: 34px; align-items: center; padding: 54px 0; border-bottom: 1px solid var(--line); }
 .area-number { align-self: start; color: var(--accent); font-size: 22px; font-weight: 700; }
 .area-image { width: 100%; }
