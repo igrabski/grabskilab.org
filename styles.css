@@ -202,8 +202,11 @@ figcaption { padding-top: 10px; font-size: 14px; font-weight: 700; }
 .research-area { display: grid; grid-template-columns: 54px minmax(260px, .9fr) 1.15fr; gap: 34px; align-items: center; padding: 54px 0; border-bottom: 1px solid var(--line); }
 .area-number { align-self: start; color: var(--accent); font-size: 22px; font-weight: 700; }
 .area-image { width: 100%; }
+.research-figure-crop { aspect-ratio: .6; overflow: hidden; border: 1px solid var(--line); background: #fff; }
+.research-figure-crop img { display: block; width: auto; max-width: none; height: 100%; }
 .research-area h2 { margin-bottom: 14px; font-size: clamp(23px, 2.6vw, 32px); line-height: 1.18; letter-spacing: -.02em; }
 .research-area p { margin-bottom: 0; color: var(--muted); font-size: 17px; }
+.research-area p a { color: var(--accent-dark); text-underline-offset: 4px; }
 
 .year-group { display: grid; grid-template-columns: 190px 1fr; border-top: 1px solid var(--line); }
 .year-group:last-child { border-bottom: 1px solid var(--line); }
