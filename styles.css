@@ -204,7 +204,7 @@ figcaption { padding-top: 10px; font-size: 14px; font-weight: 700; }
 .area-image { width: 100%; min-width: 0; }
 .research-figure { display: flex; align-items: center; align-self: stretch; justify-content: center; margin: 0; overflow: hidden; background: #fff; }
 .research-figure img { display: block; width: auto; height: auto; object-fit: contain; }
-.figure-fingerprinting img { width: 145px; max-width: 100%; transform: translateY(-18px); margin-bottom: -36px; }
+.figure-fingerprinting img { width: 145px; max-width: 100%; }
 .figure-variation img { width: 240px; max-width: 100%; }
 .figure-morphology img { width: 290px; max-width: 100%; }
 .research-area h2 { margin-bottom: 14px; font-size: clamp(23px, 2.6vw, 32px); line-height: 1.18; letter-spacing: -.02em; }
