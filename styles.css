@@ -241,7 +241,7 @@ figcaption { padding-top: 10px; font-size: 14px; font-weight: 700; }
 .year-items a { text-underline-offset: 4px; }
 
 .person-profile { display: grid; grid-template-columns: minmax(240px, 360px) 1fr; gap: 72px; align-items: start; }
-.person-headshot { display: block; width: 100%; height: auto; }
+.person-headshot { display: block; width: min(100%, 360px); max-width: 360px; height: auto; }
 .person-profile h1 { margin: 3px 0 5px; font-size: clamp(28px, 3vw, 40px); }
 .person-role { margin-bottom: 28px; color: var(--accent-dark); font-weight: 700; }
 .person-profile div:last-child > p:last-child { max-width: 720px; color: #4a504d; font-size: 18px; }
