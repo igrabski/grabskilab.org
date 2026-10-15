@@ -241,7 +241,8 @@ figcaption { padding-top: 10px; font-size: 14px; font-weight: 700; }
 .year-items a { text-underline-offset: 4px; }
 
 .person-profile { display: grid; grid-template-columns: minmax(240px, 300px) 1fr; gap: 72px; align-items: start; }
-.person-headshot { display: block; width: min(100%, 300px); max-width: 300px; height: auto; }
+.person-headshot-frame { width: min(100%, 280px); overflow: hidden; }
+.person-headshot { display: block; width: 300px; max-width: none; height: auto; transform: translateX(-20px); }
 .person-profile h1 { margin: 3px 0 5px; font-size: clamp(28px, 3vw, 40px); }
 .person-role { margin-bottom: 28px; color: var(--accent-dark); font-weight: 700; }
 .person-profile div:last-child > p:last-child { max-width: 720px; color: #4a504d; font-size: 18px; }
@@ -336,7 +337,7 @@ figcaption { padding-top: 10px; font-size: 14px; font-weight: 700; }
   .year-group h2, .publication-year h2 { margin-bottom: 0; padding-top: 30px; }
   .year-items article { grid-template-columns: 1fr; gap: 7px; padding-top: 18px; }
   .person-profile, .selected-paper { grid-template-columns: 1fr; gap: 24px; }
-  .person-headshot { max-width: 340px; }
+  .person-headshot-frame { max-width: 280px; }
   .selected-paper { align-items: start; }
   .paper-figure { min-height: 190px; }
 }
